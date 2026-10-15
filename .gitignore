@@ -41,3 +41,6 @@ example
 # generated native folders
 /ios
 /android
+/.agents/agente_tarefas.json
+/.agents/rules/validacao-tarefas.md.example
+/.agents/skills/agente-tarefas/SKILL.md

@@ -1,0 +1,47 @@
+---
+name: agente-tarefas
+description: Integração completa com o painel Kanban e a API REST do AgenteDeTarefas para registrar tarefas com instruções de teste e consultar tarefas agrupadas por categoria via API Key.
+---
+
+# Skill: AgenteDeTarefas
+
+Esta skill ensina o Agente a interagir com o sistema **AgenteDeTarefas** para gerenciamento de entregas, testes guiados e consulta de categorias.
+
+## Chave e Configurações
+
+O projeto atual configurado é:
+- **Projeto:** Projeto Rest musics (RetrosMusic)
+- **API Key:** `<YOUR_API_KEY>`
+- **API URL:** `<YOUR_API_URL>`
+- **Kanban Web:** `<YOUR_KANBAN_URL>`
+
+---
+
+## Procedimentos
+
+### 1. Criar uma nova tarefa de entrega no Kanban
+```bash
+python E:\Projetos\AgenteDeTarefas\integrations\agent_client.py create-task \
+  --api-key "<YOUR_API_KEY>" \
+  --title "<Título da Tarefa>" \
+  --description "<O que foi feito>" \
+  --instructions "1. Abrir a aplicação\n2. Testar recurso\n3. Observar comportamento esperado"
+```
+
+### 2. Consultar visão geral do projeto e categorias
+```bash
+python E:\Projetos\AgenteDeTarefas\integrations\agent_client.py get-project \
+  --api-key "<YOUR_API_KEY>"
+```
+Para saída bruta em JSON:
+```bash
+python E:\Projetos\AgenteDeTarefas\integrations\agent_client.py get-project \
+  --api-key "<YOUR_API_KEY>" --json
+```
+
+### 3. Consultar uma categoria específica
+```bash
+python E:\Projetos\AgenteDeTarefas\integrations\agent_client.py get-category \
+  --api-key "<YOUR_API_KEY>" \
+  --category <pendente|em_teste|finalizado|erro>
+```
