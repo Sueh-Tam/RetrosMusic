@@ -122,22 +122,22 @@ O app integra reprodução de arquivos locais, streaming via YouTube e um sistem
 
 | Funcionalidade | Descrição | Status |
 |---|---|---|
-| **Detecção Automática de Link** | O app detecta automaticamente quando um link do YouTube é copiado para a área de transferência e exibe uma sugestão de download imediata. | 🔴 Não iniciado |
-| **Botão Flutuante de Download** | Um botão "+" flutuante e acessível em qualquer tela do app para colar links manualmente e iniciar downloads. | 🔴 Não iniciado |
+| **Detecção Automática de Link** | O app detecta automaticamente quando um link do YouTube é copiado para a área de transferência e exibe uma sugestão de download imediata. | 🟢 Desenvolvido |
+| **Botão Flutuante de Download** | Botão de gravação/download acessível no deck e no rodapé do app para colar links e gravar fitas. | 🟢 Desenvolvido |
 
 ### 4.2 Metadados Automáticos
 
 | Funcionalidade | Descrição | Status |
 |---|---|---|
-| **Extração Automática de Metadados** | O sistema busca automaticamente a capa do vídeo/álbum, nome do artista, título da música e gênero para organizar a faixa na biblioteca. | 🔴 Não iniciado |
+| **Extração Automática de Metadados** | O sistema busca automaticamente via oEmbed a capa do vídeo, nome do artista e título da música para organizar a fita na biblioteca. | 🟢 Desenvolvido |
 | **Editor Manual de Metadados** | Interface para o usuário personalizar capa, título e artista caso queira adaptar a "capa do álbum" ou o nome da faixa ao gosto pessoal. | 🔴 Não iniciado |
-| **J-Card da Fita K7** | A capa do YouTube extraída durante o download é exibida como arte do encarte (J-Card) no fundo ou na caixinha da fita no tema K7. | 🔴 Não iniciado |
+| **J-Card da Fita K7** | A arte e metadados extraídos são exibidos na etiqueta manuscrita da fita K7 com corpo temático (Type I / Type II). | 🟢 Desenvolvido |
 
 ### 4.3 Gerenciador de Downloads
 
 | Funcionalidade | Descrição | Status |
 |---|---|---|
-| **Painel de Progresso Retrô** | Barra de status de download estilizada no estilo anos 2000, com indicadores visuais temáticos. No tema K7, exibe uma "Fita Virgem sendo gravada" com indicador vermelho de REC piscando. | 🔴 Não iniciado |
+| **Painel de Progresso Retrô** | Barra de status com animação de Fita Virgem sendo gravada, roletes em rotação em tempo real e indicador vermelho de REC piscando. | 🟢 Desenvolvido |
 | **Seleção de Qualidade de Áudio** | Opção de escolher entre alta qualidade (MP3/M4A 320kbps) ou modo de economia de espaço. | 🔴 Não iniciado |
 | **Fila de Downloads** | Gerenciamento de múltiplos downloads simultâneos ou em fila, com opção de cancelar, pausar e retomar. | 🔴 Não iniciado |
 
@@ -149,9 +149,9 @@ O app integra reprodução de arquivos locais, streaming via YouTube e um sistem
 
 | Funcionalidade | Descrição | Status |
 |---|---|---|
-| **Seção de Músicas Baixadas** | Tela dedicada para gerenciar todas as faixas salvas localmente. | 🔴 Não iniciado |
-| **Organização por Artista/Álbum** | Filtros e visualizações para organizar a biblioteca por Artista, Álbum ou Playlist/Fita K7. | 🔴 Não iniciado |
-| **Visualização em "Caixinhas de Fita"** | No tema K7, as playlists e álbuns são exibidos como pilhas de fitas K7 em uma prateleira, com arte J-Card visível. | 🔴 Não iniciado |
+| **Seção de Músicas Baixadas** | Tela dedicada ("Minhas Fitas") para gerenciar, pesquisar e reproduzir todas as faixas salvas localmente. | 🟢 Desenvolvido |
+| **Organização por Artista/Álbum** | Filtros e busca em tempo real na estante de fitas por Artista ou Nome da Faixa. | 🟢 Desenvolvido |
+| **Visualização em "Caixinhas de Fita"** | Estante retrô de fitas K7 com lombadas coloridas, tipo de fita, tamanho do arquivo e ação de tocar/apagar fita. | 🟢 Desenvolvido |
 
 ### 5.2 Armazenamento
 
@@ -222,10 +222,10 @@ O app integra reprodução de arquivos locais, streaming via YouTube e um sistem
 | Identidade Visual (UI/UX) | 8 | 0 | 0 | 8 |
 | Core do Player | 11 | 0 | 0 | 11 |
 | Integração YouTube | 5 | 0 | 0 | 5 |
-| Download por Link | 7 | 0 | 0 | 7 |
-| Configurações e Extras | 5 | 0 | 0 | 5 |
+| Download por Link | 7 | 4 | 0 | 3 |
+| Configurações e Extras | 5 | 3 | 0 | 2 |
 | Tema K7 — Detalhamento | 14 | 0 | 0 | 14 |
-| **Total Geral** | **50** | **0** | **0** | **50** |
+| **Total Geral** | **50** | **7** | **0** | **43** |
 
 ---
 
